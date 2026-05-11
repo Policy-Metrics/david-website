@@ -1,0 +1,39 @@
+
+---
+import "../styles/global.css";
+
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+
+    
+  </head>
+
+  <body>
+    <div class="site">
+      <header>
+        <a class="brand" href="/">David Caplan</a>
+
+        <nav>
+          <a href="/about">About</a>
+          <a href="/work">Work</a>
+          <a href="/thinking">Thinking</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <slot />
+      </main>
+
+      <footer>
+        <p>© David Caplan</p>
+      </footer>
+    </div>
+  </body>
+</html>
