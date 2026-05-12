@@ -93,7 +93,7 @@ max-width: 15ch;
       h2 {
         font-family: Georgia, "Times New Roman", serif;
         font-size: 1.8rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
       }
 
       p {
@@ -117,11 +117,17 @@ max-width: 15ch;
 }
 
 .hero {
+
+  margin-bottom: 3rem;
+
+}
+
+.hero {
   padding: 1rem 0 2rem;
 }
 
       footer {
-        margin-top: 5rem;
+        margin-top: 3rem;
         padding-top: 2rem;
         border-top: 1px solid var(--border);
         color: var(--muted);
