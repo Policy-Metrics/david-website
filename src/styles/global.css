@@ -34,7 +34,7 @@
 
   gap: 1rem;
 
-  padding: 1.5rem 0 3rem;
+  padding: 1rem 0 1.75rem;
 
   border-bottom: 1px solid var(--border);
 
@@ -118,13 +118,11 @@ max-width: 15ch;
 
 .hero {
 
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 
 }
 
-.hero {
-  padding: 1rem 0 2rem;
-}
+
 
       footer {
         margin-top: 3rem;
