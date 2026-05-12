@@ -42,12 +42,22 @@
 
 }
 
-      .brand {
-        font-weight: 700;
-        letter-spacing: 0.02em;
-        color: var(--text);
-        text-decoration: none;
-      }
+     .brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.brand-separator {
+  color: var(--muted);
+  font-weight: 400;
+}
 
      nav {
   display: flex;
